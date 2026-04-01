@@ -22,7 +22,7 @@
     "require": {
         "php": "^7.0|^8.0",
         "illuminate/support": "5.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*|^13.0",
-        "mnabialek/laravel-version": "^1.0.6",
+        "mnabialek/laravel-version": "dev-master",
         "nesbot/carbon": "~1.0 || ^2.0 || ^3.0",
         "illuminate/filesystem": "5.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*|^13.0",
         "illuminate/container": "5.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*|^13.0"
@@ -57,5 +57,11 @@
         "suggest": {
             "symfony/thanks": "Star packages you use running 'composer thanks' command"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/azadconvesio/laravel-version.git"
+        }
+    ]
 }
